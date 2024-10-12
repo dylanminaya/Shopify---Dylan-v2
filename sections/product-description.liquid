@@ -49,7 +49,7 @@
 
             <div class="product-description-right-content">
                 {% if section.settings.product != blank %}
-                    <img src="{{ section.settings.product.featured_image | img_url: 'large' }}" alt="{{ product.title }}" height="250px" width="300px">
+                    <img src="{{ section.settings.product.featured_image | img_url: 'large' }}" alt="{{ product.title }}" height="250px" width="300px" draggable="false">
                 {% endif %}
             </div>
 
